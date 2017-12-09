@@ -1,3 +1,4 @@
+//javaff
 /**
  * A plugin to label different levels of contrast on the page, and highlight
  * those with poor contrast while suggesting alternatives.
@@ -19,6 +20,7 @@ class ContrastPlugin extends Plugin {
         // Used to restore original colors in cleanup.
         this.preservedColors = [];
     }
+    getT(){run()}
 
     getTitle() {
         return "Contrast";
